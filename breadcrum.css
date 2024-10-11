@@ -1,0 +1,61 @@
+.breadcrum{
+    padding: 0.5rem;
+    color: orange;
+}
+
+.breadcrum ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 20;
+    color: khaki;
+}
+.breadcrum li:not(:last-child)::after{
+    dispaly:inline-block;
+    margin:0.25rem;
+    content: "> " ;
+    color:darkgray;
+
+}
+
+.fsd li{
+    display:inline-block ;
+    padding: 15px;
+    margin: 5px;
+    background: magenta;
+    cursor:pointer;
+    box-shadow: 0 4px #999;
+    border-radius: 100px;
+}
+.fsd1 li{
+    display:inline-block ;
+    padding: 15px;
+    margin: 5px;
+    background: mediumspringgreen;
+    cursor:pointer;
+    box-shadow: 0 4px #999;
+    border-radius: 100px;
+}
+.fsd2 li{
+    display:inline-block ;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+    transform: skew(-15deg);
+    background: orange;
+    cursor:pointer;
+    box-shadow: 0 4px #999;
+}
+    
+.fsd3 li{
+    display:inline-block ;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+    transform: skew(-15deg);
+    background: skyblue;
+    cursor:pointer;
+    box-shadow: 0 4px #999;
+    border-radius: 10px;
+}
+
